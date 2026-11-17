@@ -19,7 +19,7 @@ Sizing: clamping cylinder sized and checked against the estimated cutting force.
 
 Control modeling (Stateflow / Simulink): clamp-and-mill cycle with a safety interlock, plus the clamp dynamics.
 
-![The simulink model](doue6.png)
+![The simulink model](doue6.jpeg)
 
 Structural analysis (ANSYS): static and fatigue FEA of the cylinder.
 
@@ -34,7 +34,7 @@ Key results
 
 ![Static structural-Safety Factor results](douae7.png)
 
-![simulation results-Rod position, Clamp force, Valve command and State](douae1.png)
+![simulation results-Rod position, Clamp force, Valve command and State](douae1.jpeg)
 
 Item	Result
 Cylinder	Ø100 mm bore, 6 bar supply
