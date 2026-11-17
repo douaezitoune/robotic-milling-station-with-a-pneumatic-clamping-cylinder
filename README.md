@@ -10,14 +10,16 @@ The project covers the full chain from mechanical design to control logic and st
 
 Design (CATIA V5): steel articulated robot, double-acting pneumatic clamping cylinder and fixture, assembled into one machining cell.
 ![The milling robot](robot.png)
+
 ![The pneumatic cylinder](pneum.png)
+
 ![The milling station](station.png)
 
 Sizing: clamping cylinder sized and checked against the estimated cutting force.
 
 Control modeling (Stateflow / Simulink): clamp-and-mill cycle with a safety interlock, plus the clamp dynamics.
 
-![The simulink model](douae6.png)
+![The simulink model](doue6.png)
 
 Structural analysis (ANSYS): static and fatigue FEA of the cylinder.
 
@@ -25,9 +27,13 @@ Structural analysis (ANSYS): static and fatigue FEA of the cylinder.
 
 Key results
 ![Static structural-The total deformation results](douae3.png)
+
 ![Static structural-Life results](douae5.png)
+
 ![Fatigue Loading-zero based cycle with goodman mean stress correction](douae4.png)
+
 ![Static structural-Safety Factor results](douae7.png)
+
 ![simulation results-Rod position, Clamp force, Valve command and State](douae1.png)
 Item	Result
 Cylinder	Ø100 mm bore, 6 bar supply
@@ -44,9 +50,3 @@ Robot kinematics	4 axes are enough for planar milling
 
 The clamp-and-mill cycle is modeled as a 5-state Stateflow chart with a safety interlock: milling is authorized only once the clamp force has settled. The clamp dynamics are modeled in Simulink.
 
-# Tools and versions
-CATIA V5: 3D modeling and assembly
-MATLAB / Simulink / Stateflow: clamp dynamics and cycle logic
-ANSYS Mechanical: static structural and fatigue analysis
-
-!
