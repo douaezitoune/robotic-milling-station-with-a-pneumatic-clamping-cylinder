@@ -35,6 +35,7 @@ Key results
 ![Static structural-Safety Factor results](douae7.png)
 
 ![simulation results-Rod position, Clamp force, Valve command and State](douae1.png)
+
 Item	Result
 Cylinder	Ø100 mm bore, 6 bar supply
 Theoretical clamp force	3.77 kN
