@@ -37,13 +37,14 @@ Key results
 ![simulation results-Rod position, Clamp force, Valve command and State](douae1.jpeg)
 
 Item	Result
-Cylinder	Ø100 mm bore, 6 bar supply
-Theoretical clamp force	3.77 kN
-Available clamp force	1.13 kN
-Estimated cutting force	375 N
-Clamp force margin	about 3×
-Max von Mises stress (cylinder)	22.5 MPa (safety factor about 11)
-Fatigue safety factor	6.4 at 10⁹ cycles
+---Cylinder	Ø100 mm bore, 6 bar supply---
+---Theoretical clamp force	3.77 kN---
+---Available clamp force	1.13 kN---
+---Estimated cutting force	375 N---
+---Clamp force margin	about 3×---
+---Max von Mises stress (cylinder)	22.5 MPa (safety factor about 11)---
+---Fatigue safety factor	6.4 at 10⁹ cycles---
+
 Robot kinematics	4 axes are enough for planar milling
 
 
