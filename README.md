@@ -1,17 +1,28 @@
 # robotic milling station with a pneumatic clamping cylinder
 
 Design and simulation of an automated machining cell: a steel articulated robot mills a workpiece held by a double-acting pneumatic clamping cylinder on a custom fixture.
+
 ![The milling station CAD design](douae9.png)
+
 # Overview
 
 The project covers the full chain from mechanical design to control logic and structural verification:
 
 Design (CATIA V5): steel articulated robot, double-acting pneumatic clamping cylinder and fixture, assembled into one machining cell.
+![The milling robot](robot.png)
+![The pneumatic cylinder](pneum.png)
+![The milling station](station.png)
+
 Sizing: clamping cylinder sized and checked against the estimated cutting force.
+
 Control modeling (Stateflow / Simulink): clamp-and-mill cycle with a safety interlock, plus the clamp dynamics.
+
 ![The simulink model](douae6.png)
+
 Structural analysis (ANSYS): static and fatigue FEA of the cylinder.
+
 ![The meshing of the station](douae2.png)
+
 Key results
 ![Static structural-The total deformation results](douae3.png)
 ![Static structural-Life results](douae5.png)
